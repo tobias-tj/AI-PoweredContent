@@ -79,12 +79,12 @@ export default function AIChart({
           dataKey="available"
           stackId="a"
           cornerRadius={5}
-          fill="var(--color-available)"
+          fill="#333333"
           className="stroke-transparent stroke-2"
         />
         <RadialBar
           dataKey="used"
-          fill="var(--color-used)"
+          fill="#666666"
           stackId="a"
           cornerRadius={5}
           className="stroke-transparent stroke-2"
